@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css"/>
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="p1" data-role="page">
+        <div data-role="header">
+            <h1>첫번째 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>content</p>
+            <a href="#p2">두번째로</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <p>footer</p>
+        </div>
+    </div>
+    <div id="p2" data-role="page">
+        <div data-role="header">
+            <h1>두번째 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>content</p>
+            <a href="#p3">세번째로</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <p>footer</p>
+        </div>
+    </div>
+    <div id="p3" data-role="page">
+        <div data-role="header">
+            <h1>세번째 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>content</p>
+            <a href="#p1">첫번째로</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <p>footer</p>
+        </div>
+    </div>
+</body>
+</html>
